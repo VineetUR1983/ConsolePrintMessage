@@ -36,7 +36,7 @@ jobs:
         
       # List items within Current Directory
       - name: Step 4 - What is in the Current folder?
-      - run: ls -a
+        run: ls -a
       
       # Step to Understant
       - name : Step 5 - What is the target folder
