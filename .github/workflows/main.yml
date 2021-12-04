@@ -32,7 +32,7 @@ jobs:
 
       # Build Maven Project
       - name: Step 3 - Have GitHub  build Maven Project
-        run: mvn -B package --file pom.xml
+        run: mvn test --file pom.xml
         
       # List items within Current Directory
       - name: Step 4 - What is in the Current folder?
